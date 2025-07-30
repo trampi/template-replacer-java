@@ -1,0 +1,4 @@
+example
+example
+this line contains "hello world" as a text
+day

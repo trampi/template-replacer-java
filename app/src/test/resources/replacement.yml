@@ -1,0 +1,15 @@
+-  source: '/tmp/source'
+   replacements:
+     - from: "1"
+       line: 14
+       to: "2"
+     - from: "3"
+       to: "4"
+   target:
+     - path: "/tmp/1"
+       replacements:
+         - from: "5"
+           to: "6"
+     - path: "/tmp/2"
+     - path: "/tmp/3"
+     - path: "/tmp/4"

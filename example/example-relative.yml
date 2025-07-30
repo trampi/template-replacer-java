@@ -1,0 +1,13 @@
+- source: './example/source.txt'
+  replacements:
+    - from: "example"
+      line: 1
+      to: "replacement"
+    - from: "hello world"
+      to: "welcome everyone"
+  target:
+    - path: "./example/target-1"
+      replacements:
+        - from: "day"
+          to: "night"
+    - path: "./example/target-2"

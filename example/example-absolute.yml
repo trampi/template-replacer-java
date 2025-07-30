@@ -1,0 +1,13 @@
+- source: '/tmp/source'
+  replacements:
+    - from: "example"
+      line: 1
+      to: "replacement"
+    - from: "hello world"
+      to: "welcome everyone"
+  target:
+    - path: "/tmp/1"
+      replacements:
+        - from: "day"
+          to: "night"
+    - path: "/tmp/2"
